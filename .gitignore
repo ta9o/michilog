@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exclude the build directory
 build/*
   
@@ -17,3 +18,7 @@ build/*
 *.pbxuser
 *.xcworkspace
 xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
