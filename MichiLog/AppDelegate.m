@@ -7,12 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
+#import "SideMenuViewController.h"
+#import "PKRevealController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController *mainViewNav = [[UINavigationController alloc]
+                                           initWithRootViewController:
+                                           [[MainViewController alloc] init]];
+    SideMenuViewController *sideMenuCtr = [[SideMenuViewController alloc] init];
+    
+    self.revealController = [PKRevealController
+                             revealControllerWithFrontViewController:mainViewNav
+                             leftViewController:sideMenuCtr options:nil];
+    self.window.rootViewController = self.revealController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
