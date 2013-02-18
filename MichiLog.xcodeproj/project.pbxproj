@@ -33,6 +33,13 @@
 		8FC42CA916D0C06C0061C39E /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA016D0BEDD0061C39E /* PKRevealControllerContainerView.m */; };
 		8FC42CAB16D0C06C0061C39E /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */; };
 		8FC42CAD16D0C2080061C39E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42CAC16D0C2080061C39E /* QuartzCore.framework */; };
+		8FC42CB316D0C7F60061C39E /* reveal_menu_icon_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CAF16D0C7F60061C39E /* reveal_menu_icon_landscape.png */; };
+		8FC42CB416D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB016D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png */; };
+		8FC42CB516D0C7F60061C39E /* reveal_menu_icon_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB116D0C7F60061C39E /* reveal_menu_icon_portrait.png */; };
+		8FC42CB616D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */; };
+		8FC42CB916D0CABB0061C39E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CB816D0CABA0061C39E /* HistoryViewController.m */; };
+		8FC42CBC16D0CACC0061C39E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CBB16D0CACC0061C39E /* SettingViewController.m */; };
+		8FC42CBF16D276800061C39E /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,16 @@
 		8FC42CA116D0BEDD0061C39E /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "SideViewController/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
 		8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PKRevealController.m"; path = "SideViewController/UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
 		8FC42CAC16D0C2080061C39E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8FC42CAF16D0C7F60061C39E /* reveal_menu_icon_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reveal_menu_icon_landscape.png; path = img/reveal_menu_icon_landscape.png; sourceTree = "<group>"; };
+		8FC42CB016D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal_menu_icon_landscape@2x.png"; path = "img/reveal_menu_icon_landscape@2x.png"; sourceTree = "<group>"; };
+		8FC42CB116D0C7F60061C39E /* reveal_menu_icon_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reveal_menu_icon_portrait.png; path = img/reveal_menu_icon_portrait.png; sourceTree = "<group>"; };
+		8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal_menu_icon_portrait@2x.png"; path = "img/reveal_menu_icon_portrait@2x.png"; sourceTree = "<group>"; };
+		8FC42CB716D0CABA0061C39E /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		8FC42CB816D0CABA0061C39E /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		8FC42CBA16D0CACC0061C39E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8FC42CBB16D0CACC0061C39E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8FC42CBD16D2767F0061C39E /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +170,12 @@
 				8FC42C9716D0BBD10061C39E /* MainViewController.m */,
 				8FC42C9916D0BD630061C39E /* SideMenuViewController.h */,
 				8FC42C9A16D0BD630061C39E /* SideMenuViewController.m */,
+				8FC42CB716D0CABA0061C39E /* HistoryViewController.h */,
+				8FC42CB816D0CABA0061C39E /* HistoryViewController.m */,
+				8FC42CBA16D0CACC0061C39E /* SettingViewController.h */,
+				8FC42CBB16D0CACC0061C39E /* SettingViewController.m */,
+				8FC42CBD16D2767F0061C39E /* BaseNavigationViewController.h */,
+				8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */,
 			);
 			path = MichiLog;
 			sourceTree = "<group>";
@@ -160,6 +183,7 @@
 		8FC42C5F16D0AD550061C39E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FC42CAE16D0C7EC0061C39E /* img */,
 				8FC42C6016D0AD550061C39E /* MichiLog-Info.plist */,
 				8FC42C6116D0AD550061C39E /* InfoPlist.strings */,
 				8FC42C6416D0AD550061C39E /* main.m */,
@@ -201,6 +225,17 @@
 				8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */,
 			);
 			name = SideViewController;
+			sourceTree = "<group>";
+		};
+		8FC42CAE16D0C7EC0061C39E /* img */ = {
+			isa = PBXGroup;
+			children = (
+				8FC42CAF16D0C7F60061C39E /* reveal_menu_icon_landscape.png */,
+				8FC42CB016D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png */,
+				8FC42CB116D0C7F60061C39E /* reveal_menu_icon_portrait.png */,
+				8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +315,10 @@
 				8FC42C6F16D0AD550061C39E /* Default-568h@2x.png in Resources */,
 				8FC42C7216D0AD550061C39E /* MainStoryboard_iPhone.storyboard in Resources */,
 				8FC42C7516D0AD550061C39E /* MainStoryboard_iPad.storyboard in Resources */,
+				8FC42CB316D0C7F60061C39E /* reveal_menu_icon_landscape.png in Resources */,
+				8FC42CB416D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png in Resources */,
+				8FC42CB516D0C7F60061C39E /* reveal_menu_icon_portrait.png in Resources */,
+				8FC42CB616D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +361,9 @@
 				8FC42C7816D0AD550061C39E /* ViewController.m in Sources */,
 				8FC42C9816D0BBD10061C39E /* MainViewController.m in Sources */,
 				8FC42C9B16D0BD630061C39E /* SideMenuViewController.m in Sources */,
+				8FC42CB916D0CABB0061C39E /* HistoryViewController.m in Sources */,
+				8FC42CBC16D0CACC0061C39E /* SettingViewController.m in Sources */,
+				8FC42CBF16D276800061C39E /* BaseNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +436,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takuo IMBE (N9RR72994B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -409,6 +452,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "6AAA8E9A-1D62-463B-8F6A-307C6A1EDF3F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,6 +470,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takuo IMBE (N9RR72994B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -435,6 +480,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6AAA8E9A-1D62-463B-8F6A-307C6A1EDF3F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

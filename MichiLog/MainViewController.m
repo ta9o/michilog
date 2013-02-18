@@ -31,22 +31,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
     
-    
-    UIImage *revealImagePortrait = [UIImage imageNamed:@"reveal_menu_icon_portrait"];
-    UIImage *revealImageLandscape = [UIImage imageNamed:@"reveal_menu_icon_landscape"];
-    
-    if (self.navigationController.revealController.type & PKRevealControllerTypeLeft)
-    {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:revealImagePortrait landscapeImagePhone:revealImageLandscape style:UIBarButtonItemStylePlain target:self action:@selector(showLeftView:)];
-    }
-    
-    if (self.navigationController.revealController.type & PKRevealControllerTypeRight)
-    {
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:revealImagePortrait landscapeImagePhone:revealImageLandscape style:UIBarButtonItemStylePlain target:self action:@selector(showRightView:)];
-    }
-    
+    // create UITableView
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tableView.autoresizingMask = ( UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth );
     self.tableView.dataSource = self;
@@ -54,31 +40,10 @@
     [self.view addSubview:self.tableView];
 }
 
-#pragma mark - Actions
-
-- (void)showLeftView:(id)sender
-{
-    if (self.navigationController.revealController.focusedController == self.navigationController.revealController.leftViewController)
-    {
-        [self.navigationController.revealController showViewController:self.navigationController.revealController.frontViewController];
-    }
-    else
-    {
-        [self.navigationController.revealController showViewController:self.navigationController.revealController.leftViewController];
-    }
+- (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"main view");
 }
 
-- (void)showRightView:(id)sender
-{
-    if (self.navigationController.revealController.focusedController == self.navigationController.revealController.rightViewController)
-    {
-        [self.navigationController.revealController showViewController:self.navigationController.revealController.frontViewController];
-    }
-    else
-    {
-        [self.navigationController.revealController showViewController:self.navigationController.revealController.rightViewController];
-    }
-}
 
 /*
  * Please get familiar with iOS 6 new rotation handling as if you were to nest this controller within a UINavigationController,

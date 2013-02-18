@@ -17,17 +17,24 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Setting SlideViewController
     UINavigationController *mainViewNav = [[UINavigationController alloc]
                                            initWithRootViewController:
                                            [[MainViewController alloc] init]];
     SideMenuViewController *sideMenuCtr = [[SideMenuViewController alloc] init];
     
+    NSDictionary *options = @{
+                              PKRevealControllerAllowsOverdrawKey : [NSNumber numberWithBool:YES],
+                              PKRevealControllerDisablesFrontViewInteractionKey : [NSNumber numberWithBool:YES]
+                              };
     self.revealController = [PKRevealController
                              revealControllerWithFrontViewController:mainViewNav
-                             leftViewController:sideMenuCtr options:nil];
+                             leftViewController:sideMenuCtr options:options];
     self.window.rootViewController = self.revealController;
     [self.window makeKeyAndVisible];
     
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
     return YES;
 }
 							

@@ -7,12 +7,22 @@
 //
 
 #import "SideMenuViewController.h"
+#import "PKRevealController.h"
+#import "MainViewController.h"
+#import "HistoryViewController.h"
+#import "SettingViewController.h"
+
+enum SideBarMenuTags {
+    kMainMenuTag = 0,
+    kHistoryMenuTag = 1,
+    kSettingMenuTag = 2,
+};
 
 @interface SideMenuViewController ()
 
 #pragma mark - Properties
 @property (nonatomic, strong, readwrite) UITableView *tableView;
-
+@property (nonatomic, strong, readwrite) NSArray *menuList;
 @end
 
 @implementation SideMenuViewController
@@ -38,13 +48,16 @@
     self.tableView.delegate = self;
     self.tableView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
     [self.view addSubview:self.tableView];
+    
+    // initialize menuList
+    self.menuList = [NSArray arrayWithObjects:@"Main", @"History", @"Setting", nil];
 }
 
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return [self.menuList count];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -62,7 +75,8 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellReuseIdentifier];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Menu %d", indexPath.row];
+    cell.textLabel.text = [self.menuList objectAtIndex:indexPath.row];
+    //[NSString stringWithFormat:@"Menu %d", indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     
     return cell;
@@ -73,6 +87,38 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    switch (indexPath.row) {
+        case kMainMenuTag:
+        {
+            UINavigationController *mainViewNav = [[UINavigationController alloc]
+                                                      initWithRootViewController:
+                                                      [[MainViewController alloc] init]];
+            [self.revealController setFrontViewController:mainViewNav focusAfterChange:YES completion:nil];
+        }
+            break;
+        case kHistoryMenuTag:
+        {
+            UINavigationController *historyViewNav = [[UINavigationController alloc]
+                                                      initWithRootViewController:
+                                                      [[HistoryViewController alloc] init]];
+            [self.revealController setFrontViewController:historyViewNav focusAfterChange:YES completion:nil];
+        }
+            break;
+        case kSettingMenuTag:
+        {
+            UINavigationController *settingViewNav = [[UINavigationController alloc]
+                                                      initWithRootViewController:
+                                                      [[SettingViewController alloc] init]];
+            [self.revealController setFrontViewController:settingViewNav focusAfterChange:YES completion:nil];
+        }
+            break;
+        default:
+            break;
+    }
+    
+    
+    
 }
 
 

@@ -1,5 +1,5 @@
 //
-//  SideMenuViewController.h
+//  SettingViewController.h
 //  MichiLog
 //
 //  Created by Takuo IMBE on 2/17/13.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseNavigationViewController.h"
 
-@interface SideMenuViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface SettingViewController : BaseNavigationViewController
 
 @end
