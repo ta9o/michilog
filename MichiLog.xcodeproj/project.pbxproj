@@ -18,28 +18,33 @@
 		8FC42C6F16D0AD550061C39E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42C6E16D0AD550061C39E /* Default-568h@2x.png */; };
 		8FC42C7216D0AD550061C39E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42C7016D0AD550061C39E /* MainStoryboard_iPhone.storyboard */; };
 		8FC42C7516D0AD550061C39E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42C7316D0AD550061C39E /* MainStoryboard_iPad.storyboard */; };
-		8FC42C7816D0AD550061C39E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C7716D0AD550061C39E /* ViewController.m */; };
 		8FC42C8016D0AD550061C39E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42C7F16D0AD550061C39E /* SenTestingKit.framework */; };
 		8FC42C8116D0AD550061C39E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42C5816D0AD550061C39E /* UIKit.framework */; };
 		8FC42C8216D0AD550061C39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42C5A16D0AD550061C39E /* Foundation.framework */; };
 		8FC42C8A16D0AD550061C39E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42C8816D0AD550061C39E /* InfoPlist.strings */; };
 		8FC42C8D16D0AD550061C39E /* MichiLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C8C16D0AD550061C39E /* MichiLogTests.m */; };
-		8FC42C9816D0BBD10061C39E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C9716D0BBD10061C39E /* MainViewController.m */; };
-		8FC42C9B16D0BD630061C39E /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C9A16D0BD630061C39E /* SideMenuViewController.m */; };
-		8FC42CA316D0BEDD0061C39E /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C9E16D0BEDD0061C39E /* PKRevealController.m */; };
-		8FC42CA416D0BEDD0061C39E /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA016D0BEDD0061C39E /* PKRevealControllerContainerView.m */; };
-		8FC42CA516D0BEDD0061C39E /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */; };
-		8FC42CA716D0C06C0061C39E /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42C9E16D0BEDD0061C39E /* PKRevealController.m */; };
-		8FC42CA916D0C06C0061C39E /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA016D0BEDD0061C39E /* PKRevealControllerContainerView.m */; };
-		8FC42CAB16D0C06C0061C39E /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */; };
 		8FC42CAD16D0C2080061C39E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FC42CAC16D0C2080061C39E /* QuartzCore.framework */; };
 		8FC42CB316D0C7F60061C39E /* reveal_menu_icon_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CAF16D0C7F60061C39E /* reveal_menu_icon_landscape.png */; };
 		8FC42CB416D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB016D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png */; };
 		8FC42CB516D0C7F60061C39E /* reveal_menu_icon_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB116D0C7F60061C39E /* reveal_menu_icon_portrait.png */; };
 		8FC42CB616D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */; };
-		8FC42CB916D0CABB0061C39E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CB816D0CABA0061C39E /* HistoryViewController.m */; };
-		8FC42CBC16D0CACC0061C39E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CBB16D0CACC0061C39E /* SettingViewController.m */; };
-		8FC42CBF16D276800061C39E /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */; };
+		8FC42CC916D3D64A0061C39E /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC416D3D64A0061C39E /* PKRevealController.m */; };
+		8FC42CCA16D3D64A0061C39E /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC616D3D64A0061C39E /* PKRevealControllerContainerView.m */; };
+		8FC42CCB16D3D64A0061C39E /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC816D3D64A0061C39E /* UIViewController+PKRevealController.m */; };
+		8FC42CCD16D3D6590061C39E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CCC16D3D6590061C39E /* ViewController.m */; };
+		8FC42CD216D3D6720061C39E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CCF16D3D6720061C39E /* SettingViewController.m */; };
+		8FC42CD316D3D6720061C39E /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD116D3D6720061C39E /* SideMenuViewController.m */; };
+		8FC42CDA16D3D6790061C39E /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD516D3D6790061C39E /* BaseNavigationViewController.m */; };
+		8FC42CDB16D3D6790061C39E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD716D3D6790061C39E /* HistoryViewController.m */; };
+		8FC42CDC16D3D6790061C39E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD916D3D6790061C39E /* MainViewController.m */; };
+		8FC42CDD16D3D7040061C39E /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD516D3D6790061C39E /* BaseNavigationViewController.m */; };
+		8FC42CDE16D3D7040061C39E /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD716D3D6790061C39E /* HistoryViewController.m */; };
+		8FC42CDF16D3D7040061C39E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD916D3D6790061C39E /* MainViewController.m */; };
+		8FC42CE016D3D7040061C39E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CCF16D3D6720061C39E /* SettingViewController.m */; };
+		8FC42CE116D3D7040061C39E /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CD116D3D6720061C39E /* SideMenuViewController.m */; };
+		8FC42CE216D3D7040061C39E /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC416D3D64A0061C39E /* PKRevealController.m */; };
+		8FC42CE316D3D7040061C39E /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC616D3D64A0061C39E /* PKRevealControllerContainerView.m */; };
+		8FC42CE416D3D7040061C39E /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC42CC816D3D64A0061C39E /* UIViewController+PKRevealController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,35 +73,35 @@
 		8FC42C6E16D0AD550061C39E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8FC42C7116D0AD550061C39E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8FC42C7416D0AD550061C39E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8FC42C7616D0AD550061C39E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FC42C7716D0AD550061C39E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FC42C7E16D0AD550061C39E /* MichiLogTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MichiLogTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC42C7F16D0AD550061C39E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8FC42C8716D0AD550061C39E /* MichiLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MichiLogTests-Info.plist"; sourceTree = "<group>"; };
 		8FC42C8916D0AD550061C39E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FC42C8B16D0AD550061C39E /* MichiLogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MichiLogTests.h; sourceTree = "<group>"; };
 		8FC42C8C16D0AD550061C39E /* MichiLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MichiLogTests.m; sourceTree = "<group>"; };
-		8FC42C9616D0BBD10061C39E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		8FC42C9716D0BBD10061C39E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		8FC42C9916D0BD630061C39E /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
-		8FC42C9A16D0BD630061C39E /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
-		8FC42C9D16D0BEDD0061C39E /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = SideViewController/PKRevealController.h; sourceTree = "<group>"; };
-		8FC42C9E16D0BEDD0061C39E /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealController.m; path = SideViewController/PKRevealController.m; sourceTree = "<group>"; };
-		8FC42C9F16D0BEDD0061C39E /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealControllerContainerView.h; path = SideViewController/PKRevealControllerContainerView.h; sourceTree = "<group>"; };
-		8FC42CA016D0BEDD0061C39E /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealControllerContainerView.m; path = SideViewController/PKRevealControllerContainerView.m; sourceTree = "<group>"; };
-		8FC42CA116D0BEDD0061C39E /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "SideViewController/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
-		8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PKRevealController.m"; path = "SideViewController/UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
 		8FC42CAC16D0C2080061C39E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8FC42CAF16D0C7F60061C39E /* reveal_menu_icon_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reveal_menu_icon_landscape.png; path = img/reveal_menu_icon_landscape.png; sourceTree = "<group>"; };
 		8FC42CB016D0C7F60061C39E /* reveal_menu_icon_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal_menu_icon_landscape@2x.png"; path = "img/reveal_menu_icon_landscape@2x.png"; sourceTree = "<group>"; };
 		8FC42CB116D0C7F60061C39E /* reveal_menu_icon_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reveal_menu_icon_portrait.png; path = img/reveal_menu_icon_portrait.png; sourceTree = "<group>"; };
 		8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal_menu_icon_portrait@2x.png"; path = "img/reveal_menu_icon_portrait@2x.png"; sourceTree = "<group>"; };
-		8FC42CB716D0CABA0061C39E /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		8FC42CB816D0CABA0061C39E /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-		8FC42CBA16D0CACC0061C39E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		8FC42CBB16D0CACC0061C39E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		8FC42CBD16D2767F0061C39E /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
-		8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		8FC42CC116D3D5D80061C39E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ViewControllers/ViewController.h; sourceTree = "<group>"; };
+		8FC42CC316D3D64A0061C39E /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = ViewControllers/PKRevealViewController/PKRevealController.h; sourceTree = "<group>"; };
+		8FC42CC416D3D64A0061C39E /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealController.m; path = ViewControllers/PKRevealViewController/PKRevealController.m; sourceTree = "<group>"; };
+		8FC42CC516D3D64A0061C39E /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealControllerContainerView.h; path = ViewControllers/PKRevealViewController/PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		8FC42CC616D3D64A0061C39E /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKRevealControllerContainerView.m; path = ViewControllers/PKRevealViewController/PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		8FC42CC716D3D64A0061C39E /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "ViewControllers/PKRevealViewController/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		8FC42CC816D3D64A0061C39E /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PKRevealController.m"; path = "ViewControllers/PKRevealViewController/UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		8FC42CCC16D3D6590061C39E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ViewControllers/ViewController.m; sourceTree = "<group>"; };
+		8FC42CCE16D3D6720061C39E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ViewControllers/SettingViewController.h; sourceTree = "<group>"; };
+		8FC42CCF16D3D6720061C39E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ViewControllers/SettingViewController.m; sourceTree = "<group>"; };
+		8FC42CD016D3D6720061C39E /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = ViewControllers/SideMenuViewController.h; sourceTree = "<group>"; };
+		8FC42CD116D3D6720061C39E /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = ViewControllers/SideMenuViewController.m; sourceTree = "<group>"; };
+		8FC42CD416D3D6790061C39E /* BaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNavigationViewController.h; path = ViewControllers/BaseNavigationViewController.h; sourceTree = "<group>"; };
+		8FC42CD516D3D6790061C39E /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationViewController.m; path = ViewControllers/BaseNavigationViewController.m; sourceTree = "<group>"; };
+		8FC42CD616D3D6790061C39E /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoryViewController.h; path = ViewControllers/HistoryViewController.h; sourceTree = "<group>"; };
+		8FC42CD716D3D6790061C39E /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoryViewController.m; path = ViewControllers/HistoryViewController.m; sourceTree = "<group>"; };
+		8FC42CD816D3D6790061C39E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		8FC42CD916D3D6790061C39E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,24 +163,12 @@
 		8FC42C5E16D0AD550061C39E /* MichiLog */ = {
 			isa = PBXGroup;
 			children = (
-				8FC42C9C16D0BECF0061C39E /* SideViewController */,
+				8FC42CC016D3D5C90061C39E /* ViewControllers */,
 				8FC42C6716D0AD550061C39E /* AppDelegate.h */,
 				8FC42C6816D0AD550061C39E /* AppDelegate.m */,
 				8FC42C7016D0AD550061C39E /* MainStoryboard_iPhone.storyboard */,
 				8FC42C7316D0AD550061C39E /* MainStoryboard_iPad.storyboard */,
-				8FC42C7616D0AD550061C39E /* ViewController.h */,
-				8FC42C7716D0AD550061C39E /* ViewController.m */,
 				8FC42C5F16D0AD550061C39E /* Supporting Files */,
-				8FC42C9616D0BBD10061C39E /* MainViewController.h */,
-				8FC42C9716D0BBD10061C39E /* MainViewController.m */,
-				8FC42C9916D0BD630061C39E /* SideMenuViewController.h */,
-				8FC42C9A16D0BD630061C39E /* SideMenuViewController.m */,
-				8FC42CB716D0CABA0061C39E /* HistoryViewController.h */,
-				8FC42CB816D0CABA0061C39E /* HistoryViewController.m */,
-				8FC42CBA16D0CACC0061C39E /* SettingViewController.h */,
-				8FC42CBB16D0CACC0061C39E /* SettingViewController.m */,
-				8FC42CBD16D2767F0061C39E /* BaseNavigationViewController.h */,
-				8FC42CBE16D2767F0061C39E /* BaseNavigationViewController.m */,
 			);
 			path = MichiLog;
 			sourceTree = "<group>";
@@ -214,19 +207,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8FC42C9C16D0BECF0061C39E /* SideViewController */ = {
-			isa = PBXGroup;
-			children = (
-				8FC42C9D16D0BEDD0061C39E /* PKRevealController.h */,
-				8FC42C9E16D0BEDD0061C39E /* PKRevealController.m */,
-				8FC42C9F16D0BEDD0061C39E /* PKRevealControllerContainerView.h */,
-				8FC42CA016D0BEDD0061C39E /* PKRevealControllerContainerView.m */,
-				8FC42CA116D0BEDD0061C39E /* UIViewController+PKRevealController.h */,
-				8FC42CA216D0BEDD0061C39E /* UIViewController+PKRevealController.m */,
-			);
-			name = SideViewController;
-			sourceTree = "<group>";
-		};
 		8FC42CAE16D0C7EC0061C39E /* img */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +216,39 @@
 				8FC42CB216D0C7F60061C39E /* reveal_menu_icon_portrait@2x.png */,
 			);
 			name = img;
+			sourceTree = "<group>";
+		};
+		8FC42CC016D3D5C90061C39E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FC42CD416D3D6790061C39E /* BaseNavigationViewController.h */,
+				8FC42CD516D3D6790061C39E /* BaseNavigationViewController.m */,
+				8FC42CD616D3D6790061C39E /* HistoryViewController.h */,
+				8FC42CD716D3D6790061C39E /* HistoryViewController.m */,
+				8FC42CD816D3D6790061C39E /* MainViewController.h */,
+				8FC42CD916D3D6790061C39E /* MainViewController.m */,
+				8FC42CCE16D3D6720061C39E /* SettingViewController.h */,
+				8FC42CCF16D3D6720061C39E /* SettingViewController.m */,
+				8FC42CD016D3D6720061C39E /* SideMenuViewController.h */,
+				8FC42CD116D3D6720061C39E /* SideMenuViewController.m */,
+				8FC42CCC16D3D6590061C39E /* ViewController.m */,
+				8FC42CC116D3D5D80061C39E /* ViewController.h */,
+				8FC42CC216D3D6350061C39E /* PKRevealViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8FC42CC216D3D6350061C39E /* PKRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FC42CC316D3D64A0061C39E /* PKRevealController.h */,
+				8FC42CC416D3D64A0061C39E /* PKRevealController.m */,
+				8FC42CC516D3D64A0061C39E /* PKRevealControllerContainerView.h */,
+				8FC42CC616D3D64A0061C39E /* PKRevealControllerContainerView.m */,
+				8FC42CC716D3D64A0061C39E /* UIViewController+PKRevealController.h */,
+				8FC42CC816D3D64A0061C39E /* UIViewController+PKRevealController.m */,
+			);
+			name = PKRevealViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,17 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC42CA716D0C06C0061C39E /* PKRevealController.m in Sources */,
-				8FC42CA916D0C06C0061C39E /* PKRevealControllerContainerView.m in Sources */,
-				8FC42CAB16D0C06C0061C39E /* UIViewController+PKRevealController.m in Sources */,
+				8FC42CDD16D3D7040061C39E /* BaseNavigationViewController.m in Sources */,
+				8FC42CDE16D3D7040061C39E /* HistoryViewController.m in Sources */,
+				8FC42CDF16D3D7040061C39E /* MainViewController.m in Sources */,
+				8FC42CE016D3D7040061C39E /* SettingViewController.m in Sources */,
+				8FC42CE116D3D7040061C39E /* SideMenuViewController.m in Sources */,
+				8FC42CE216D3D7040061C39E /* PKRevealController.m in Sources */,
+				8FC42CE316D3D7040061C39E /* PKRevealControllerContainerView.m in Sources */,
+				8FC42CE416D3D7040061C39E /* UIViewController+PKRevealController.m in Sources */,
 				8FC42C6516D0AD550061C39E /* main.m in Sources */,
 				8FC42C6916D0AD550061C39E /* AppDelegate.m in Sources */,
-				8FC42C7816D0AD550061C39E /* ViewController.m in Sources */,
-				8FC42C9816D0BBD10061C39E /* MainViewController.m in Sources */,
-				8FC42C9B16D0BD630061C39E /* SideMenuViewController.m in Sources */,
-				8FC42CB916D0CABB0061C39E /* HistoryViewController.m in Sources */,
-				8FC42CBC16D0CACC0061C39E /* SettingViewController.m in Sources */,
-				8FC42CBF16D276800061C39E /* BaseNavigationViewController.m in Sources */,
+				8FC42CCD16D3D6590061C39E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,9 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC42C8D16D0AD550061C39E /* MichiLogTests.m in Sources */,
-				8FC42CA316D0BEDD0061C39E /* PKRevealController.m in Sources */,
-				8FC42CA416D0BEDD0061C39E /* PKRevealControllerContainerView.m in Sources */,
-				8FC42CA516D0BEDD0061C39E /* UIViewController+PKRevealController.m in Sources */,
+				8FC42CC916D3D64A0061C39E /* PKRevealController.m in Sources */,
+				8FC42CCA16D3D64A0061C39E /* PKRevealControllerContainerView.m in Sources */,
+				8FC42CCB16D3D64A0061C39E /* UIViewController+PKRevealController.m in Sources */,
+				8FC42CD216D3D6720061C39E /* SettingViewController.m in Sources */,
+				8FC42CD316D3D6720061C39E /* SideMenuViewController.m in Sources */,
+				8FC42CDA16D3D6790061C39E /* BaseNavigationViewController.m in Sources */,
+				8FC42CDB16D3D6790061C39E /* HistoryViewController.m in Sources */,
+				8FC42CDC16D3D6790061C39E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +580,7 @@
 				8FC42C9216D0AD550061C39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FC42C9316D0AD550061C39E /* Build configuration list for PBXNativeTarget "MichiLogTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +589,7 @@
 				8FC42C9516D0AD550061C39E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
